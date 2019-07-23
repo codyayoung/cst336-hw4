@@ -10,14 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/codyayoung/cst336-hw4.git"
   },
-  "author": "",
+  "author": "Cody Young",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/codyayoung/cst336-hw4/issues"
   },
   "homepage": "https://github.com/codyayoung/cst336-hw4#readme",
   "dependencies": {
-    "faker": "^4.1.0"
+    "faker": "^4.1.0",
+    "jquery": "^3.4.1"
   },
   "devDependencies": {}
 }
