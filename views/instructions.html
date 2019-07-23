@@ -27,10 +27,12 @@
 				<p id="math_instructions_text"> 
 				Basic math instructions in x86 use two 32-bit registers. <br />
 				These instructions include addition, subtraction, multiplication, division, and bit shifting. <br />
-				For example, the following instruction would add the value in the EAX register to the ECX register. <br />
+				For example, the following instructions would add the generated hex value in the EAX register to the one in the ECX register. <br />
 				</p>
 				
 				<blockquote id="addl">
+				<span id="randomHexEAX"></span> <br>
+				<span id="randomHexECX"></span> <br>
 				addl %eax, %ecx 
 				</blockquote>
 				
@@ -38,6 +40,6 @@
 				<p id="registers_source_link">Source: <a href="https://www.cs.virginia.edu/~evans/cs216/guides/x86.html">University of Virginia</a> </p>
 				
 			</div>
-
+			<script type="text/javascript" src="/app.js"></script>
 		</main>
 <% include partials/footer.ejs %>

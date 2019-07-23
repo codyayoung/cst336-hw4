@@ -1,3 +1,7 @@
+//Faker variables
+var eaxHex = require('faker');
+var ecxHex = require('faker');
+
 const express = require("express");
 const app = express();
 app.engine('html', require('ejs').renderFile);
