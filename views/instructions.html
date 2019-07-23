@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Instructions</title>
+		<meta charset="utf-8"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">	
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	</head>
+
+    <!-- This is the body -->
+
+    <body>
+        <header>
+			<h1> x86 Assembly: 0110 0<span class="header_digits">101</span> </h1>
+		</header>
+    
+		<nav>
+			<a href="index.html">Intro</a>
+			<a href="registers.html">Registers</a>
+			<a href="instructions.html">Instructions</a>
+			<a href="history.html">History</a>
+		</nav>
+		
+		<br /><br />
+		
+		<main>
+		<figure id="instructions_image">
+				<img src="img/instructions_list.png" alt="x86 Instructions" />
+			</figure>
+			
+			<div>
+				<header>
+					<h2> Reading/Writing Memory </h2>
+				</header>
+					
+				<p id="instructions_text">
+					Some of the most basic instructions in x86 assembly are reading and writing memory. <br />
+					The <span class="mov_instruction">mov</span> instruction writes data from one register into another. <br />
+					Moving data between registers is possible, but moving data between memory addresses directly is not. <br />
+					The <span class="push_instruction">push</span> and <span class="pop_instruction">pop</span> instructions
+					push and pop data from the current stack in memory. <br /> 
+					Memory stacks depend on the type of hardware being used. 
+				</p>
+				
+				<br />
+				
+				<header>
+					<h2> Arithmetic </h2>
+				</header>
+				
+				<p id="math_instructions_text"> 
+				Basic math instructions in x86 use two 32-bit registers. <br />
+				These instructions include addition, subtraction, multiplication, division, and bit shifting. <br />
+				For example, the following instruction would add the value in the EAX register to the ECX register. <br />
+				</p>
+				
+				<blockquote id="addl">
+				addl %eax, %ecx 
+				</blockquote>
+				
+				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+				<p id="registers_source_link">Source: <a href="https://www.cs.virginia.edu/~evans/cs216/guides/x86.html">University of Virginia</a> </p>
+				
+			</div>
+
+		</main>
+		
+		<footer>
+			
+			<figure>
+				<img src="img/csumb_logo.png" alt="The CSUMB logo" />
+			</figure>
+			CST 336 Internet Programming - 2019&copy; Young <br />
+		</footer>
+    </body>
+
+</html>

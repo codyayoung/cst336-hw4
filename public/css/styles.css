@@ -1,0 +1,144 @@
+header, main, nav, footer {
+	text-align: center;
+	font-family: 'Roboto Mono'; monospace;
+	font-size: 14px;
+}
+
+h1 {
+	font-family: 'Roboto Mono'; monospace;
+	font-size: 4em;
+	color: #4214A7;
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: 'Roboto Mono'; monospace;
+	color: #14A78B;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+#main_header {
+	-webkit-animation: fadein 2s;
+}
+
+span.main_header_digits {
+	-webkit-animation: colorchange 4s;
+	animation-fill-mode: forwards;
+}
+
+span.header_digits {
+	color: #13E7BD;
+}
+
+@keyframes fadein {
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
+
+@keyframes colorchange {
+	from {color: #4214A7; }
+	to {color: #13E7BD; }
+}
+
+blockquote {
+	font-family: 'Roboto Mono'; monospace;
+	color: #A71430;
+	font-size: 1.2em;
+	align: left;
+}
+
+nav a {
+	padding: 15px;
+	padding-bottom: 4px;
+	font-size: 1.5em;
+	text-decoration: none;
+	color: black;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+nav a:hover {
+	border-bottom: 1px black solid;
+	font-size: 1.5em;
+	transition: .5s;
+}
+
+#intro_text{
+	text-align: left;
+}
+
+#x86_intro_text {
+	text-align: left;
+}
+
+#intro_source_link {
+	text-align: left;
+}
+
+#register_text {
+	text-align: left;
+}
+
+#register_usage_text {
+	text-align: left;
+}
+
+#register_stack_text {
+	text-align: left;
+}
+
+#registers_source_link {
+	text-align: left;
+}
+
+#instructions_text {
+	text-align: left;
+}
+
+#math_instructions_text {
+	text-align: left;
+}
+
+span.mov_instruction {
+	color: #FF0066;
+}
+
+span.push_instruction {
+	color: #14A7A7;
+}
+
+span.pop_instruction {
+	color: #5EA714;
+}
+
+main {
+	display: flex;
+	justify-content: center;
+}
+
+body {
+	background: white;
+}
+
+li {
+	list-style: circle;
+	width: 500px;
+	margin: 0px auto;
+	font-family: 'Roboto Mono'; monospace;
+	font-size: 14px;
+	text-align: left;
+}
+
+
+
+footer {
+	font-family: "Courier", Courier, monospace;
+	font-size: 11px;
+	color: blue;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<title>Registers</title>
+		<meta charset="utf-8"/>
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">	
+		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	</head>
+	
+    <!-- This is the body -->
+
+    <body>
+        <header>
+			<h1> x86 Assembly: 0110 0<span class="header_digits">101</span> </h1>
+		</header>
+       
+		<nav>
+			<a href="index.html">Intro</a>
+			<a href="registers.html">Registers</a>
+			<a href="instructions.html">Instructions</a>
+			<a href="history.html">History</a>
+		</nav>
+		
+		<br /><br />
+		
+		<main>
+			<figure id="registers_image">
+				<img src="img/x86_registers.png" alt="x86 register layout"/>
+				<figcaption>
+				Standard x86 registers
+				</figcaption>
+			</figure>
+			
+			<div>
+				<header>
+					<h2> CPU Registers</h2>
+				</header>
+					
+				<p id="register_text"> Modern x86 processors have eight 32-bit general purpose registers, as shown in the figure. <br />
+				Each register can hold 32 bits of data. Register names have lost their original historical purpose <br />
+				and are a carryover from legacy computing days. For example, the ECX register was known as the "counter" <br />
+				register because it was used to hold loop indexes. <br /> Today, the type of data stored in each register is at the programmer's discretion.
+				</p>
+				
+				<br />
+				
+				<header>
+					<h2> Usage</h2>
+				</header>
+				
+				<p id="register_usage_text"> The EAX, EBX, ECX, and EDX registers can be used as subsections. <br />
+				Each of these registers can be divided into three sections as follows, using EAX as an example:
+				</p>
+				
+				<ol id="register_list">
+					<li>EAX - 32 bits</li>
+					<li>AX - 16 bits</li>
+					<li>AH - 8 bits</li>
+					<li>AL - 8 bits</li>
+				</ol>
+				
+				<p id="register_stack_text">
+				When using subsections of these registers, they are called by different names. The least significant 2 bytes <br /> of the EAX register are considered as the 16-bit register AX. <br />
+				ESP and EBP are the only two registers still reserved for special purposes. <br />
+				ESP is used to store the stack pointer in memory, while EBP stores the base pointer which <br />is a key part of calling subroutines in assembly. 				
+				</p>
+				
+				<br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+				<p id="registers_source_link">Source: <a href="https://www.cs.virginia.edu/~evans/cs216/guides/x86.html">University of Virginia</a> </p>
+				
+			</div>
+		</main>
+		
+		<footer>
+			
+			<figure>
+				<img src="img/csumb_logo.png" alt="The CSUMB logo" />
+			</figure>
+			CST 336 Internet Programming - 2019&copy; Young <br />
+		</footer>
+    </body>
+
+</html>
