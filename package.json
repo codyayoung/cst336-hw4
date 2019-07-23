@@ -21,7 +21,9 @@
   },
   "homepage": "https://github.com/codyayoung/cst336-hw4#readme",
   "dependencies": {
-    "faker": "^4.1.0"
+    "faker": "^4.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1"
   },
   "devDependencies": {}
 }
