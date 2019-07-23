@@ -1,34 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-	<head>
-		<title>Index</title>
-		<meta charset="utf-8"/>
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">	
-		<link href="css/styles.css" rel="stylesheet" type="text/css" />
-	</head>
-
-    <body>
-        <header id="main_header">
-
-		<div>
-			<h1> x86 Assembly: 0110 0<span class="main_header_digits">101</span> </h1>
-		</div>	
-		
-		</header>
-     
-		<nav>
-			<a href="index.html">Intro</a>
-			<a href="registers.html">Registers</a>
-			<a href="instructions.html">Instructions</a>
-			<a href="history.html">History</a>
-		</nav>
-		
-		<br /><br />
+<% include partials/header.ejs %>
 		
 		<main>
 			<figure>
-				<img src="img/x86_code.PNG" alt="Example of x86 code"/>
+				<img src="/img/x86_code.PNG" alt="Example of x86 code"/>
 				<figcaption>
 				An example of some x86 code, written by yours truly.
 				</figcaption>
@@ -70,14 +44,5 @@
 			</div>
 			
 		</main>
+<% include partials/footer.ejs %>
 		
-		<footer>
-			
-			<figure>
-				<img src="img/csumb_logo.png" alt="The CSUMB logo" />
-			</figure>
-			CST 336 Internet Programming - 2019&copy; Young <br />
-			
-		</footer>
-	</body>
-</html>

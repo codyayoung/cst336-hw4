@@ -1,18 +1,18 @@
 header, main, nav, footer {
 	text-align: center;
-	font-family: 'Roboto Mono'; monospace;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 14px;
 }
 
 h1 {
-	font-family: 'Roboto Mono'; monospace;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 4em;
 	color: #4214A7;
 	margin-bottom: 0px;
 }
 
 h2 {
-	font-family: 'Roboto Mono'; monospace;
+	font-family: 'Roboto Mono', monospace;
 	color: #14A78B;
 }
 
@@ -45,10 +45,10 @@ span.header_digits {
 }
 
 blockquote {
-	font-family: 'Roboto Mono'; monospace;
+	font-family: 'Roboto Mono', monospace;
 	color: #A71430;
 	font-size: 1.2em;
-	align: left;
+	align-content: left;
 }
 
 nav a {
@@ -130,7 +130,7 @@ li {
 	list-style: circle;
 	width: 500px;
 	margin: 0px auto;
-	font-family: 'Roboto Mono'; monospace;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 14px;
 	text-align: left;
 }

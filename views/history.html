@@ -1,33 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-
-	<head>
-		<title>History Page</title>
-		<meta charset="utf-8"/>
-		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">	
-		<link href="css/styles.css" rel="stylesheet" type="text/css" />
-	</head>
-
-    <!-- This is the body -->
-
-    <body>
-        <header>
-			<h1> x86 Assembly: 0110 0<span class="header_digits">101</span> </h1>
-		</header>
-      
-		<nav>
-			<a href="index.html">Intro</a>
-			<a href="registers.html">Registers</a>
-			<a href="instructions.html">Instructions</a>
-			<a href="history.html">History</a>
-		</nav>
-		
-		<br /><br />
-		
+<% include partials/header.ejs %>		
 		<main>
 		
 			<figure id="8086_image">
-				<img src="img/intel_8086.jpg" alt="Intel 8086 microprocessor"/>
+				<img src="/img/intel_8086.jpg" alt="Intel 8086 microprocessor"/>
 				<figcaption>
 					A dark indigo 8086 chip.
 				</figcaption>
@@ -56,14 +31,4 @@
 			</div>
 
 		</main>
-		
-		<footer>
-			
-			<figure>
-				<img src="img/csumb_logo.png" alt="The CSUMB logo" />
-			</figure>
-			CST 336 Internet Programming - 2019&copy; Young <br />
-		</footer>
-    </body>
-
-</html>
+<% include partials/footer.ejs %>		
